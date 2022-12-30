@@ -4,9 +4,9 @@ import tradicional from "../assets/tradicional.png"
 
 export function Main({lata}){
     return(
-        <div className="min-w-full flex justify-between max-sm:flex-col h-screen items-center">
+        <div className="w-10/12 m-auto flex justify-between max-md:flex-col  max-sm:flex-col max-sm:justify-around h-screen items-center">
             <Content />
-            <Pepsi lata={tradicional} />
+            <Pepsi lata={tradicional}/>
         </div>
     )
 }

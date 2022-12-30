@@ -30,7 +30,7 @@ const clickZero = (e)=>{
 
 export function Body(){
     return(
-        <div className="w-11/12 h-screen m-auto flex flex-col gap-10 justify-between max-md:h-full">
+        <div className="w-screen h-screen m-auto flex flex-col gap-10 justify-between max-md:h-full ">
             <Header />
             <Main />
             <div className="flex gap-6 justify-center">
